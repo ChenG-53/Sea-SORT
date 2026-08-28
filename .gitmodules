@@ -1,0 +1,12 @@
+[submodule "external/torchreid"]
+	path = external/torchreid
+	url = https://github.com/KaiyangZhou/deep-person-reid.git
+	shallow = true
+[submodule "external/TrackEval"]
+	path = external/TrackEval
+	url = https://github.com/JonathonLuiten/TrackEval.git
+	shallow = true
+[submodule "external/ultralytics"]
+	path = external/ultralytics
+	url = https://github.com/ultralytics/ultralytics.git
+	shallow = true
