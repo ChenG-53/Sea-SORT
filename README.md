@@ -83,8 +83,6 @@ USVTrack can be downloaded from its official GitHub repository:
 
 An OSNet-x1.0 model was trained separately for each dataset using the official [TorchreID](https://github.com/KaiyangZhou/deep-person-reid) library. The resulting ReID model weights can be downloaded below.
 
-USVMaritime-24k：https://drive.google.com/file/d/10U9Ny4j6myk54cpa7LZPr7ZdnKrc5J7p/view?usp=drive_link
-
 JMT-2022：https://drive.google.com/file/d/1TH2-4CHs5fJuOc6duigMZx4ukmnFj2Kw/view?usp=drive_link
 
 SMD：https://drive.google.com/file/d/1fAJuFonJamG_XwIDoEkIxaWxL4sdAw4L/view?usp=drive_link
@@ -94,8 +92,6 @@ USVTrack：https://drive.google.com/file/d/1KC16YNN7HzUQ5luuOWO_NolI6zO-9rW0/vie
 ### 2. YOLOv12 Weight
 
 YOLOv12m was used as the unified object detector for all evaluations. To accommodate the characteristics of each dataset, the input resolution was set to 1280 × 1280 for USVMaritime-24k and JMT-2022, 1024 × 1024 for SMD, and 1440 × 1440 for USVTrack. Each model was trained for 100 epochs with a batch size of 4 using the stochastic gradient descent (SGD) optimizer. The initial learning rate, momentum, and weight decay were set to 0.01, 0.937, and 0.0005, respectively. During inference, the confidence and IoU thresholds for non-maximum suppression (NMS) were set to 0.1 and 0.6, respectively. The resulting detector weights can be downloaded below.
-
-USVMaritime-24k：https://drive.google.com/file/d/1UKyl_P3kdKkP_C_CkhLnxNprQKhEDBZ6/view?usp=drive_link
 
 JMT-2022：https://drive.google.com/file/d/1-8VObX-OkRS-rjGTllgeCk3ZdhmVjqBS/view?usp=drive_link
 
