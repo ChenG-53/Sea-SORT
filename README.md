@@ -1,6 +1,6 @@
 # Sea-SORT
 
-> **Note:** The complete code will be made publicly available upon acceptance of the paper.
+> **Note:** The training and inference code is currently being organized.
 
 #### Sea-SORT: Multi-Object Tracking in Maritime Scenes with Camera Shake and Low-Texture Backgrounds
 
@@ -101,6 +101,8 @@ USVTrack：https://drive.google.com/file/d/1yn_AQD7hXzADIHQLUxdV5M_DRaE3sT2W/vie
 
 ## Visualization results
 
+The following examples visualize the tracking results produced by Sea-SORT on the four evaluated datasets: USVMaritime-24k, JMT-2022, SMD, and USVTrack.
+
 ### 1. USVMaritime-24k 
 
 <p align="center">
@@ -115,4 +117,18 @@ USVTrack：https://drive.google.com/file/d/1yn_AQD7hXzADIHQLUxdV5M_DRaE3sT2W/vie
   <img src="./images/JMT-2022-105.gif" alt="JMT-2022-105" width="32%">
   <img src="./images/JMT-2022-28.gif" alt="JMT-2022-28" width="32%">
   <img src="./images/JMT-2022-80.gif" alt="JMT-2022-80" width="32%">
+</p>
+### 3. SMD
+
+<p align="center">
+  <img src="./images/MVI_0797_VIS_OB.gif" alt="MVI_0797_VIS_OB" width="48%">
+  <img src="./images/MVI_0799_VIS_OB.gif" alt="MVI_0799_VIS_OB" width="48%">
+</p>
+
+### 4. USVTrack
+
+<p align="center">
+  <img src="./images/sequence_4.gif" alt="sequence_4" width="32%">
+  <img src="./images/sequence_15.gif" alt="sequence_15" width="32%">
+  <img src="./images/sequence_17.gif" alt="sequence_17" width="32%">
 </p>
